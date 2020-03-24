@@ -1,13 +1,22 @@
+html{
+    width: 100%;
+    margin:-10px;
+}
+
 body{
     margin-left: 200px;
     margin-right: 200px;
     align-items: center;
+}
+main{
+    display: block;
 }
 
 h1{
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: bold;
+    
     
 }
 h4{
@@ -16,11 +25,122 @@ h4{
     color:darkslategray;;
 
 }
-.listdesc{
-    list-style-type: none;
-    font-family: Arial, Helvetica, sans-serif;
+ul{
+    list-style: none;
 }
+.listdesc{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+
+
+}
+
+  
+  .info-item {
+    width: 50%;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .info-list li span {
+    margin-left: 0.5rem;
+  }
+
+
+/*
+.fa{
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing:antialiased;
+    font-size: inherit;
+    font: normal;
+}
+
+.fa-fw{
+    width:  1.28571429em;
+    text-align: center;
+}
+
+*/
+
+
 p{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.container{
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+    max-width: 58.5rem;
+}
+header{
+    position: fixed;
+  width: 100%;
+  left: 0;
+  background: cadetblue;
+  z-index: 10;
+}
+.wrapper{
+    width: 100%;
+    max-width: 936px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 1rem;
+  background: darkslategrey;
+  color: aliceblue;
+  
+
+}
+a{
+    text-decoration: none;
+}
+.navigation{
+
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0;
+    float: right;
+}
+.navbtn{
+
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    float: right;
+    padding-left: 1rem;
+    list-style-type: none;
+   
+}
+.navigation li {
+    padding-left: 1rem;
+  }
+  
+  .navigation li:first-child {
+    padding-left: 0;
+  }
+  
+  .navigation li a {
+    padding-bottom: 0.2rem;
+    color: white;
+    transition: all 0.4s;
+  }
+  
+  .navigation li a:hover {
+    color: darkslategray;
+    transition: all 0.4s;
+  }
+  
+  

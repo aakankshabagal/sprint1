@@ -1,38 +1,91 @@
 <html>
 <head>
     <title>Airbnb homestay page</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-  <div>  <h1>Studio in Bandra Apartment</h1></div>
+    <div class="container">
+
+
+        <header>
+            <div class="wrapper">
+                
+               <a class="logo" href="#">Homestay</a>
+                <nav>
+                    <ul class="navigation">
+                        <li class="navbtn" >
+                            <a  href="#">INR</a>
+                        </li>
+                        <li class="navbtn">
+                            <a  href="#">Help</a>
+                        </li>
+                        <li  class="navbtn">
+                            <a href="#">Login</a>
+                        </li>
+                        <li class="navbtn">
+                            <a  href="#">Sign up</a>
+                        </li>
+                        </ul>
+                </nav>
+            </div>
+
+        </header>
+
+
+
+
+
+
+<br><br><br><br><br><br>
+<main>
+
+   <div>  <h1>Studio in Bandra Apartment</h1></div>
     
     <img src="img/a1.jpg">
     <img src="img/b2.jpg">
     <img src="img/c3.jpg">
     <img src="img/d4.jpg">
-    <h4> The space</h4>
-    <ul class="listdesc">
-        <li> Max people: 4</li>
-           <li> Check In: After 3PM</li>
-           <li> Bathrooms: 2</li>
-            <li>Check Out: 12PM</li>
-          <li> Bedrooms: 1</li> 
+    
+    
+    <section class="room-info">
+        <h4>
+          The space
+        </h4>
 
-    </ul>
-
+        <ul class="listdesc">
+          <li class="info-item"><i class="fa fa-fw fa-male"></i><span>Max people: 4</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-clock-o"></i><span>Check In: After 3PM</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-bath"></i><span>Bathrooms: 2</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-clock-o"></i><span>Check Out: 12PM</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-bed"></i><span>Bedrooms: 1</span></li>
+        </ul>
+      </section>
+      <section class="room-info">
     <h4>Amenities</h4>
     <ul class="listdesc">
-        <li>Shower</li>
-         <li>   Kitchen</li>
-          <li>  WiFi</li>
-          <li>  Heating</li>
-          <li>  TV</li>
-         <li>   Accessible</li>
-    </ul>
+        <li class="info-item"><i class="fa fa-fw fa-shower"></i><span>Shower</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-cutlery"></i><span>Kitchen</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-wifi"></i><span>WiFi</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-thermometer"></i><span>Heating</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-tv"></i><span>TV</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-wheelchair"></i><span>Accessible</span></li>
+        </ul>
+    </section>
     <h4>Extra Info</h4>
     <p>Our apartment is really clean and we like to keep it that way. Enjoy the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 <br/><br/>
-        We accept:    
+        
+        <span>We accept:</span> 
+          
+        <i class="fa fa-credit-card"></i>
+        <i class="fa fa-cc-mastercard"></i>
+        <i class="fa fa-cc-amex"></i>
+        <i class="fa fa-cc-paypal"></i>
+      </span>
+        
+
 
     </p>
     <h4>Rules</h4>
@@ -41,14 +94,17 @@
         Subscribe to receive updates on available dates and special offers.</p>
         <input type="button" value="subscribe" name="subscribe"/>
         <h4>Contact</h4>
-        <p><i>Chicago, US  Phone: +00 151515  Email: mail@mail.com<br/>
-           Questions? Go ahead, ask them:</i></p>
+        <p>Chicago, US  Phone: +00 151515  Email: mail@mail.com<br/>
+           Questions? Go ahead, ask them:</p>
            <input type="text" value="name" placeholder="Name"name="n1"/>
            <input type="mail" value="email" placeholder="email" name="email"/>
            <textarea rows = "1" placeholder="message" value="msg" name="msg">message
             </textarea>
             
          <input type="submit" value="submit" name="submit"/>
+        </main>
  
+     </div>
+  
 </body>
 </html>
