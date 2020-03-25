@@ -7,7 +7,7 @@ body{
     margin-left: 200px;
     margin-right: 200px;
     align-items: center;
-    background: linear-gradient(rgb(90, 217, 145),rgb(93, 206, 182));
+    background: linear-gradient(rgb(90, 217, 145),#d42b9882);
 }
 main{
     display: block;
@@ -49,23 +49,6 @@ ul{
   .info-list li span {
     margin-left: 0.5rem;
   }
-
-
-/*
-.fa{
-    display: inline-block;
-    text-rendering: auto;
-    -webkit-font-smoothing:antialiased;
-    font-size: inherit;
-    font: normal;
-}
-
-.fa-fw{
-    width:  1.28571429em;
-    text-align: center;
-}
-
-*/
 
 
 p{
@@ -202,3 +185,38 @@ img {
   .current:hover::after {
     background: rgba(0, 0, 0, 0);
   }
+  .btnsub{
+    width: 33.33333%;
+    border: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: capitalize;
+    opacity: 1;
+  
+  }
+  .btnsub::hover {
+    opacity: 0.9;
+  }
+  
+.input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-size: 1rem;
+}
+address{
+  font-style: normal;
+}
+
+hr{
+  color: white;
+}
